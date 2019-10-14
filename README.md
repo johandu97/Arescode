@@ -5,3 +5,19 @@
 
 ## About Arescode
 Create responsive code directory structure based on liveURLs
+
+## Issues and requests
+
+If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Subdomains/issues).
+
+## License
+
+Domains is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/johandu1997/Subdomains/blob/master/LICENSE) for more information.
+
+## Thanks
+
+* Special Thanks to infosec community.
+
+## Version
+**Current version is 1.0**
+
