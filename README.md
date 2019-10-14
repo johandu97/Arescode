@@ -12,7 +12,7 @@ If you have a problem or a feature request, open an [issue](https://github.com/j
 
 ## License
 
-Domains is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/johandu1997/Subdomains/blob/master/LICENSE) for more information.
+Domains is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/johandu1997/Arescode/blob/master/LICENSE) for more information.
 
 ## Thanks
 
