@@ -6,6 +6,11 @@
 ## About Arescode
 Create responsive code directory structure based on liveURLs. Return redirect and error information.
 
+## Installation
+```
+git clone https://github.com/johandu1997/Arescode.git
+```
+
 ## Issues and requests
 
 If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Subdomains/issues).
