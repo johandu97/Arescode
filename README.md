@@ -4,7 +4,7 @@
 ![Subdomains](images/arescode.png)
 
 ## About Arescode
-Create responsive code directory structure based on liveURLs. Return redirect and error information
+Create responsive code directory structure based on liveURLs. Return redirect and error information.
 
 ## Issues and requests
 
