@@ -35,8 +35,8 @@ arescode -f <urls_file> -o <results_directory>
 
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
--f            | --file        | Domain name to enumerate subdomains of
--o            | --output      | Enable the subbrute bruteforce module
+-f            | --file        | Enter the filename contain URLs
+-o            | --output      | Return the resulting directory name
 -h            | --help        | show the help message and exit
 
 ## Examples
