@@ -10,7 +10,7 @@ Create responsive code directory structure based on liveURLs. Return redirect an
 ## Installation
 
 ```
-git clone https://github.com/johandu1997/Arescode.git
+git clone https://github.com/johandu1997/Icapture.git
 ```
 
 ## Dependencies
@@ -53,11 +53,11 @@ arescode -f live_http.txt -o result_http
 
 ## Issues and requests
 
-If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Arescode/issues).
+If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Icapture/issues).
 
 ## License
 
-Domains is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/johandu1997/Arescode/blob/master/LICENSE) for more information.
+Domains is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/johandu1997/Icapture/blob/master/LICENSE) for more information.
 
 ## Thanks
 
