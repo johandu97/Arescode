@@ -27,7 +27,7 @@ def main():
     
     # Add the arguments to the parser
     ap.add_argument("-f", "--file", required=True, help="Enter the filename contain URLs")
-    ap.add_argument("-o", "--output", required=True, help="Enter the resulting directory name")
+    ap.add_argument("-o", "--output", required=True, help="Return the resulting directory name")
     args = vars(ap.parse_args())
     files = args['file']
     results = args['output']
