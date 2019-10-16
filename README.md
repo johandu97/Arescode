@@ -22,6 +22,11 @@ sudo pip install -r requirements.txt
 ```
 sudo ./build.sh
 ```
+## Usage
+
+```
+arescode -f <urls_file> -o <results_directory>
+```
 
 ## Issues and requests
 
