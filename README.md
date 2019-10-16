@@ -13,7 +13,7 @@ git clone https://github.com/johandu1997/Arescode.git
 
 ## Issues and requests
 
-If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Subdomains/issues).
+If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Arescode/issues).
 
 ## License
 
