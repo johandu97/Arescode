@@ -5,7 +5,7 @@
 
 ## About Arescode
 
-Take pictures based on arescode results.
+Create responsive code directory structure based on liveURLs. Return redirect and error information.
 
 ## Installation
 
