@@ -4,13 +4,17 @@
 ![Subdomains](images/arescode.png)
 
 ## About Arescode
+
 Create responsive code directory structure based on liveURLs. Return redirect and error information.
 
 ## Installation
+
 ```
 git clone https://github.com/johandu1997/Arescode.git
 ```
+
 ## Dependencies
+
 * Installation on Linux
 
 ```
@@ -18,6 +22,7 @@ sudo pip install -r requirements.txt
 ```
 
 ## Setup
+
 * Installation on Linux
 ```
 sudo ./build.sh
@@ -27,6 +32,12 @@ sudo ./build.sh
 ```
 arescode -f <urls_file> -o <results_directory>
 ```
+
+Short Form    | Long Form     | Description
+------------- | ------------- |-------------
+-f            | --file        | Domain name to enumerate subdomains of
+-o            | --output      | Enable the subbrute bruteforce module
+-h            | --help        | show the help message and exit
 
 ## Issues and requests
 
@@ -41,5 +52,6 @@ Domains is licensed under the GNU GPL license. take a look at the [LICENSE](http
 * Special Thanks to infosec community.
 
 ## Version
+
 **Current version is 1.0**
 
