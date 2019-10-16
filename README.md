@@ -10,6 +10,18 @@ Create responsive code directory structure based on liveURLs. Return redirect an
 ```
 git clone https://github.com/johandu1997/Arescode.git
 ```
+## Dependencies
+* Installation on Linux
+
+```
+sudo pip install -r requirements.txt
+```
+
+## Setup
+* Installation on Linux
+```
+sudo ./build.sh
+```
 
 ## Issues and requests
 
