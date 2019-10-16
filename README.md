@@ -39,6 +39,18 @@ Short Form    | Long Form     | Description
 -o            | --output      | Enable the subbrute bruteforce module
 -h            | --help        | show the help message and exit
 
+## Examples
+
+1. Make a search of responsive code and return responsive code directory structure
+  
+```
+arescode -f live_https.txt -o result_https
+```
+
+```
+arescode -f live_http.txt -o result_http
+```
+
 ## Issues and requests
 
 If you have a problem or a feature request, open an [issue](https://github.com/johandu1997/Arescode/issues).
