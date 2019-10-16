@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('./library/')
+sys.path.append('/usr/bin/library/')
 
 import pyfiglet
 import requests
