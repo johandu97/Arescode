@@ -37,6 +37,7 @@ Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -f            | --file        | Enter the filename contain URLs
 -o            | --output      | Return the resulting directory name
+-t            | --thread      | Number of threads
 -h            | --help        | Show the help message and exit
 
 ## Examples
