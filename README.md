@@ -37,7 +37,7 @@ Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -f            | --file        | Enter the filename contain URLs
 -o            | --output      | Return the resulting directory name
--h            | --help        | show the help message and exit
+-h            | --help        | Show the help message and exit
 
 ## Examples
 
