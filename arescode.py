@@ -68,7 +68,7 @@ def response_code_structure(url, stt, results):
                 fw.write('-'*200 + "\n")
             fw.write(res.request.url + "\t\t\t" + str(res.status_code) + "\n")
             fw.close()
-            string +=  colored('Redirect: ', 'yellow') + res.request.url
+            string +=  colored('Redirect: ', 'yellow') + res.request.url + '\n'
         string +=  colored('Response code: ', 'yellow') + colored(res.status_code, 'blue') + '\n'
         string +=  colored('History: ', 'yellow') + str(res.history) + '\n'
     except Exception as error: 
