@@ -19,38 +19,39 @@ git clone https://github.com/johandu1997/Arescode.git
 * Installation on Linux
 
 ```
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Setup
 
 * Installation on Linux
 ```
-sudo ./build.sh
+./build.sh
 ```
 ## Usage
 
 ```
-arescode -f <urls_file> -o <results_directory>
+arescode -f <subdomains file>
 ```
 
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -f            | --file        | Enter the filename contain URLs
--o            | --output      | Return the resulting directory name
 -t            | --thread      | Number of threads
 -h            | --help        | Show the help message and exit
 
 ## Examples
 
-1. Make a search of responsive code and return responsive code directory structure
+1. Make a search of subdomains and return responsive code directory structure
   
 ```
-arescode -f live_https.txt -o result_https
+arescode -f sony.com-final.txt
 ```
 
+2. Make a search of subdomains and return responsive code directory structure with threading
+  
 ```
-arescode -f live_http.txt -o result_http
+arescode -f sony.com-final.txt -t 50
 ```
 
 ## Issues and requests
