@@ -19,6 +19,7 @@ git clone https://github.com/johandu1997/Arescode.git
 * Installation on Linux
 
 ```
+sudo apt-get install python-pip
 pip install -r requirements.txt
 ```
 
@@ -42,13 +43,13 @@ Short Form    | Long Form     | Description
 
 ## Examples
 
-1. Make a search of subdomains and return responsive code directory structure
+1. Make a search of living subdomains and return responsive code directory structure
   
 ```
 arescode -f sony.com-final.txt
 ```
 
-2. Make a search of subdomains and return responsive code directory structure with threading
+2. Make a search of living subdomains and return responsive code directory structure with threading
   
 ```
 arescode -f sony.com-final.txt -t 50
