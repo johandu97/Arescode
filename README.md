@@ -6,7 +6,7 @@
 
 ## About Arescode
 
-Create responsive code directory structure based on liveURLs. Return redirect and error information.
+Create responsive code directory structure based on living URLs. Return redirect and error information.
 
 ## Installation
 
