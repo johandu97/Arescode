@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('library_arescode/')
+sys.path.append('/usr/bin/library_arescode/')
 
 from termcolor import colored
 from threading import Thread
