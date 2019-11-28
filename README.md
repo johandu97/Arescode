@@ -19,7 +19,7 @@ git clone https://github.com/johandu1997/Arescode.git
 * Installation on Linux
 
 ```
-sudo apt-get install python-pip
+sudo apt-get install python-pip -y
 pip install -r requirements.txt
 ```
 
