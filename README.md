@@ -66,7 +66,7 @@ Domains is licensed under the GNU GPL license. take a look at the [LICENSE](http
 
 ## Thanks
 
-* Special Thanks to infosec community.
+* Special 🖤 thanks to infosec community.
 
 ## Version
 
