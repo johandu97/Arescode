@@ -23,18 +23,19 @@ info = """
 
 class Request_performer(Thread):
 
-    def __init__(self, subdomain, stt, schema):
+    def __init__(self, subdomain, stt, schema, verbose):
 
         Thread.__init__(self)
         self.subdomain = subdomain
         self.stt = stt
         self.schema = schema
+        self.verbose = verbose
 
     def run(self):
 
-        response_code_structure(self.subdomain, self.stt, self.schema)
+        response_code_structure(self.subdomain, self.stt, self.schema, self.verbose)
 
-def response_code_structure(subdomain, stt, schema):
+def response_code_structure(subdomain, stt, schema, verbose):
 
     global t
 
@@ -73,7 +74,8 @@ def response_code_structure(subdomain, stt, schema):
         fw.write(str(error))
         fw.close()
     string +=  colored('-'*80, 'white') + '\n'
-    print string
+    if verbose:
+        print string
     t -= 1
 
 def main():
@@ -86,10 +88,12 @@ def main():
     # Add the arguments to the parser
     ap.add_argument("-f", "--file", required=True, help="Enter the filename contain living subdomains")
     ap.add_argument("-t", "--thread", help="Number of threads")
+    ap.add_argument("-v", "--verbose", action='store_true', help="Increase verbosity level")
 
     args = vars(ap.parse_args())
     files = args['file']
     totalthread = args['thread']
+    verbose = args['verbose']
 
     if totalthread == None:
         totalthread = 1
@@ -123,7 +127,7 @@ def main():
             while t > int(totalthread):
                 continue
             t += 1
-            thread = Request_performer(subdomain, count, schema)
+            thread = Request_performer(subdomain, count, schema, verbose)
             thread.start()
             threads.append(thread) 
      
