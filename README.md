@@ -37,7 +37,7 @@ arescode -f <subdomains_file>
 
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
--f            | --file        | Enter the filename contain URLs
+-f            | --file        | Enter the filename contain living urls
 -t            | --thread      | Number of threads
 -h            | --help        | Show the help message and exit
 -v            | --verbose     | Increase verbosity level
