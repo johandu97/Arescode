@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-arescode -f <subdomains file>
+arescode -f <subdomains_file>
 ```
 
 Short Form    | Long Form     | Description
