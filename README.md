@@ -40,6 +40,7 @@ Short Form    | Long Form     | Description
 -f            | --file        | Enter the filename contain URLs
 -t            | --thread      | Number of threads
 -h            | --help        | Show the help message and exit
+-v            | --verbose     | Increase verbosity level
 
 ## Examples
 
