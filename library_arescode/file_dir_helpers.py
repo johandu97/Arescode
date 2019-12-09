@@ -18,3 +18,9 @@ def inital_dir():
 	os.system('mkdir response_code/https/4xx')
 	os.system('mkdir response_code/https/5xx')
 	os.system('mkdir response_code/https/error')
+
+def append_to_file(path, data):
+
+	f = open(path, 'a')
+	f.write(data)
+	f.close()

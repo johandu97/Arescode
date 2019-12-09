@@ -41,10 +41,13 @@ def response_code_structure(subdomain, stt, schema, verbose):
 
     try:
         string = ''
+        string_file = ''
         subdomain = subdomain.strip()
         string += str(stt) + '\n'
+        string_file += str(stt) + '\n'
         url = schema + '://' + subdomain
         string +=  colored('Original: ', 'yellow') + url + '\n'
+        string_file +=  'Original: ' + url + '\n'
         res = requests.get(url, headers=gen_headers, timeout=10)
         code = int(res.status_code)
         if not len(res.history):
@@ -65,17 +68,23 @@ def response_code_structure(subdomain, stt, schema, verbose):
             fw.write(res.request.url + "\t\t\t" + str(res.status_code) + "\n")
             fw.close()
             string +=  colored('Redirect: ', 'yellow') + colored(res.request.url, 'green') + '\n'
+            string_file +=  'Redirect: ' + res.request.url + '\n'
         string +=  colored('Response code: ', 'yellow') + colored(res.status_code, 'blue') + '\n'
+        string_file +=  'Response code: ' + str(res.status_code) + '\n'
         string +=  colored('History: ', 'yellow') + str(res.history) + '\n'
+        string_file +=  'History: ' + str(res.history) + '\n'
     except Exception as error: 
         string +=  colored('Error: ', 'yellow') + colored(error, 'red') + '\n'
+        string_file += 'Error: ' + str(error) + '\n'
         os.system('mkdir ' + 'response_code/' + schema  + '/error/' + subdomain)
         fw = open('response_code/' + schema + '/error/' + subdomain + '/' + subdomain + '-error.txt', 'w')
         fw.write(str(error))
         fw.close()
     string +=  colored('-'*80, 'white') + '\n'
+    string_file += '-'*80 + '\n'
     if verbose:
         print string
+    append_to_file('response_code/' + schema + '/arescode-'+schema+'.log', string_file)
     t -= 1
 
 def main():
