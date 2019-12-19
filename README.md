@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 * Installation on Linux
 ```
-./build.sh
+sudo ./build.sh
 ```
 ## Usage
 
