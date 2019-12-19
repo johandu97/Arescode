@@ -48,7 +48,7 @@ def response_code_structure(subdomain, stt, schema, verbose):
         url = schema + '://' + subdomain
         string +=  colored('Original: ', 'yellow') + url + '\n'
         string_file +=  'Original: ' + url + '\n'
-        res = requests.get(url, headers=gen_headers, timeout=10)
+        res = requests.get(url, headers=gen_headers, verify=False ,timeout=10)
         code = int(res.status_code)
         if not len(res.history):
             if code >= 100 and code < 200:
